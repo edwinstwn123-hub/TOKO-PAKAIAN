@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warung Madura Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🛍️ Toko Pakaian</h1>
+  </header>
+
+  <main>
+    <section id="products"></section>
+  </main>
+
+  <aside id="cart">
+    <h2>Keranjang Belanja</h2>
+    <ul id="cart-items"></ul>
+    <p id="total">Total: Rp 0</p>
+
+    <!-- 🔹 Tambahan: Input Nominal Pembayaran -->
+    <label for="bayar">Nominal yang dibayarkan:</label><br>
+    <input 
+      type="number" 
+      id="bayar" 
+      placeholder="Masukkan nominal bayar" 
+      style="margin-top: 5px; padding: 5px; width: 180px;"
+    /><br>
+
+    <!-- 🔹 Tombol Checkout -->
+    <button id="checkout" style="margin-top: 10px;">Bayar Sekarang</button>
+
+    <!-- 🔹 Tempat Menampilkan Kembalian -->
+    <p id="kembalian" style="font-weight: bold; margin-top: 10px;"></p>
+  </aside>
+
+  <footer>
+    <p>© 2025 Warung Madura. Dibuat dengan ❤️ oleh Rency.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
